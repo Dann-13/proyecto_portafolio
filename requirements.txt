@@ -1,0 +1,18 @@
+django==3.2.16
+django-environ==0.10.0
+django-cors-headers==4.0.0
+djangorestframework==3.14.0
+Pillow==9.5.0
+django-storages==1.13.2
+django-ckeditor==6.5.1
+psycopg2==2.9.6
+
+# django==3.2.16 - Framework web de Python para desarrollar aplicaciones web.
+# django-environ==0.10.0 - Simplifica la gestión de configuraciones en Django utilizando variables de entorno.
+# django-cors-headers==4.0.0 - Proporciona middleware para habilitar el Cross-Origin Resource Sharing (CORS) en Django.
+# djangorestframework==3.14.0 - Framework para crear API RESTful en Django.
+# Pillow==9.5.0 - Biblioteca de manipulación de imágenes en Python.
+# django-storages==1.13.2 - Facilita el almacenamiento de archivos en servicios de almacenamiento en la nube.
+# django-ckeditor==6.5.1 - Integración del editor de texto enriquecido CKEditor en Django.
+# psycopg2==2.9.6 - Adaptador de base de datos de PostgreSQL para Python.
+
