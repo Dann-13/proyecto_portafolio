@@ -2,23 +2,25 @@ from pathlib import Path
 import os
 import environ
 
+# Crea una instancia de la clase Env de django-environ
 env = environ.Env()
 environ.Env.read_env()
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Obtiene la ruta base del proyecto utilizando la ubicación del archivo actual (settings.py)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Configuraciones para el desarrollo inicial: no aptas para producción
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
+# Configuración de la clave secreta utilizada en producción (obtenida de una variable de entorno)
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# Configuración de la depuración: especifica si la depuración está activada o desactivada en producción (obtenida de una variable de entorno)
 DEBUG = os.environ.get('DEBUG')
 
+# Configuración de los hosts permitidos para la aplicación en desarrollo (obtenidos de una variable de entorno)
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS_DEV')
+
+# Definición de las aplicaciones de Django
 
 
 # Application definition
@@ -35,15 +37,15 @@ DJANGO_APPS = [
 PROJECT_APPS = [
 
 ]
-
-THIRD_PARTY_APP = [
+# Aplicaciones de terceros utilizadas en el proyecto
+THIRD_PARTY_APPS = [
     'corsheaders',
     'rest_framework',
     'ckeditor',
     'ckeditor_uploader'
 ]
-
-INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APP
+# Todas las aplicaciones instaladas en el proyecto
+INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 
 CKEDITOR_CONFIGS = {
     'default': {
