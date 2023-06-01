@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
 
-        <header aria-label="Site Header" class="p-5 bg-gray-100 dark:bg-gray-900 top-0">
+        <header aria-label="Site Header" class="p-5 bg-gray-100 dark:bg-gray-900 w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed">
             <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex-1 md:flex md:items-center md:gap-12">
