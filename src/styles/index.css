@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.active{
+.active {
     @apply border-teal-500;
+}
+
+.border-thin {
+    border-bottom-width: 0.1px;
 }

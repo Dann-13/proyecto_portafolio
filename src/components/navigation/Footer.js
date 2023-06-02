@@ -1,14 +1,14 @@
 import { connect } from "react-redux"
 import { Link } from "react-router-dom"
-import logo from 'assets/img/logo.png'
+import logo from 'assets/img/LogoDev.png'
 
 function Footer() {
     return (
-        <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900">
+        <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900 ">
             <div
                 class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
             >
-                <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+                <div class="absolute end-2 top-2 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
                     <a
                         class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 dark:bg-gray-700 dark:text-teal-300 dark:hover:bg-gray-600 sm:p-3 lg:p-4"
                         href="#MainContent"
@@ -30,10 +30,10 @@ function Footer() {
                     </a>
                 </div>
 
-                <div class="lg:flex lg:items-end lg:justify-between">
+                <div class="lg:flex lg:justify-between items-center">
                     <div>
                         <div class="flex justify-center items-center text-teal-600 dark:text-teal-300">
-                            <img src={logo} class="" width={110} height={100} alt="logo" />
+                            <img src={logo} class="" width={200} height={190} alt="logo" />
                         </div>
                         <p
                             class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 lg:text-left"

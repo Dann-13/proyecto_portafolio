@@ -1,29 +1,33 @@
 import { connect } from "react-redux"
-import { NavLink } from "react-router-dom"
-import logo from 'assets/img/logo.png'
+import { Link, NavLink } from "react-router-dom"
+import logo from 'assets/img/LogoDev.png'
 import { useState } from "react"
 import { DotLoader } from "react-spinners"
+import '../../styles/index.css'
 
 function Navbar() {
     const [loading, setLoading] = useState(true)
 
     return (
 
-        <header aria-label="Site Header" class="p-5 bg-gray-100 dark:bg-gray-900 w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed">
+        <header aria-label="Site Header" class="p-5 bg-gray-100 dark:bg-gray-900 w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed border-b backdrop-blur bg-white/90 dark:bg-gray-900/70 dark:border-gray-700"
+        >
+            
             <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex-1 md:flex md:items-center md:gap-12">
-                        <a class="block text-teal-600 dark:text-teal-300" href="/">
+                        <Link to='/'
+                        class="block text-teal-600 dark:text-teal-300">
                             <span class="sr-only">Home</span>
-                            <img src={logo} className="" width={80} height={70} alt="logo" />
-                        </a>
+                            <img src={logo} className="" width={160} height={130} alt="logo" />
+                        </Link>
                     </div>
 
                     <div class="md:flex md:items-center md:gap-12">
                         <nav aria-label="Site Nav" class="hidden md:block">
                             <ul class="flex items-center gap-6 text-sm">
                                 <li>
-                                    <NavLink to='/about' className="text-gray-500 transition dark:text-white text-lg border-b-2 border-transparent hover:border-teal-500">
+                                    <NavLink to='/about' className="text-gray-500 transition duration-300 ease-in-out dark:text-white text-lg border-b-2 border-transparent hover:border-teal-500">
                                         Sobre Mi
                                     </NavLink>
 
