@@ -9,3 +9,19 @@
 .border-thin {
     border-bottom-width: 0.1px;
 }
+@media (max-width: 320px) {
+    #navbar .md:flex-wrap {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #navbar .md:flex-wrap > * {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    #navbar .md:flex-wrap > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+  

@@ -22,7 +22,7 @@ function Header() {
                                     />
                                 </div>
                             </h1>
-                            <ul className='flex gap-4 py-12'>
+                            <ul className='flex gap-4 py-32'>
                                 <li className='inline-flex border-b-2 border-transparent hover:border-teal-500 transition duration-300 ease-in-out'>
                                     <Link to='/services/algo' className='font-medium text-white'>
                                         Desarrollo Web</Link></li>
