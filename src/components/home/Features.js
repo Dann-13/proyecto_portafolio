@@ -10,7 +10,7 @@ function Features() {
                 <div class="max-w-6xl mx-auto px-5 py-20 ">
                     <div class="text-center mb-20">
                         <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">¡Bienvenidos &#x1F609;!</h1>
-                        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Aquí podrás explorar la fusión perfecta entre diseño innovador y desarrollo web de calidad. Sumérgete en un viaje donde tus ideas cobrarán vida a través de una estética cautivadora y funcionalidades sorprendentes. Juntos, crearemos una experiencia web única y personalizada que dejará una huella duradera en tus usuarios. Prepárate para descubrir el poder de la web con un toque de mi pasión y conocimientos. ¡Estoy emocionado de comenzar este viaje contigo!</p>
+                        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto"> Juntos, crearemos una experiencia web única y personalizada que dejará una huella duradera en tus usuarios. Prepárate para descubrir el poder de la web con un toque de mi pasión y conocimientos. ¡Estoy emocionado de comenzar este viaje contigo!</p>
                         <div class="flex mt-6 justify-center">
                             <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                         </div>
@@ -24,8 +24,8 @@ function Features() {
                                     <div class="flex-grow ">
                                         <h2 class=" text-xl title-font font-medium mb-3">Java</h2>
                                         <p class="leading-relaxed text-sm text-justify">
-                                        Con experiencia en el desarrollo de aplicaciones escalables y orientadas a objetos en Java, puedo crear software personalizado que se adapte perfectamente a tus necesidades. Desde el diseño de la arquitectura hasta la implementación y las pruebas, me encargo de cada etapa del proceso de desarrollo para garantizar resultados de calidad. Trabaja conmigo y juntos crearemos soluciones innovadoras que impulsen tu negocio hacia el éxito
-                                            </p>
+                                            El lenguaje de programación que impulsa mis creaciones de software con su versatilidad y poder
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ function Features() {
                                     <div class="flex-grow">
                                         <h2 class=" text-xl title-font font-medium mb-3">Developpement Front-end</h2>
                                         <p class="leading-relaxed text-sm text-justify">
-                                        Soy un apasionado desarrollador Front-end dedicado a construir interfaces atractivas y funcionales. Transformo diseños en código limpio y optimizado, utilizando tecnologías modernas como HTML, CSS y JavaScript. Mi enfoque se centra en la usabilidad, interactividad y rendimiento para ofrecer una experiencia excepcional al usuario. Trabajemos juntos para llevar tu presencia en línea al siguiente nivel y cautivar a tu audiencia con diseños impresionantes.
+                                        Dando vida a las interfaces con HTML, CSS y JavaScript para ofrecer experiencias web impactantes y visualmente sorprendentes
                                         </p>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ function Features() {
                                     <div class="flex-grow">
                                         <h2 class=" text-xl title-font font-medium mb-3">Developpement Back-end</h2>
                                         <p class="leading-relaxed text-sm text-justify">
-                                        Estoy listo para convertir tus ideas en realidad. Creo soluciones robustas, eficientes y seguras que transforman conceptos en aplicaciones funcionales. Escalabilidad, rendimiento y usabilidad son mi enfoque principal. ¡Trabajemos juntos para llevar tu negocio al siguiente nivel en el mundo digital!
+                                        Construyendo las bases sólidas, implementando lógica y gestionando eficientemente los datos, para crear aplicaciones escalables y seguras con diferentes lenguajes en el lado del servidor
                                         </p>
                                     </div>
                                 </div>

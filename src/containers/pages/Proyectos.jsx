@@ -1,14 +1,12 @@
-import Footer from "components/navigation/Footer"
-import Navbar from "components/navigation/Navbar"
+import Portafolio from "components/proyects/portafolio"
 import Layout from "hocs/layouts/layout"
 
 function Proyectos() {
     return (
         <Layout>
-            <Navbar/>
-            <div className="pt-28">Esta es mi ruta home Principal</div>
-            
-            <Footer/>
+            <div className="pt-28">
+                <Portafolio/>
+            </div>
         </Layout>
     )
 }

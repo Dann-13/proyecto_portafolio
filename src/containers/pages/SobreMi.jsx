@@ -1,14 +1,14 @@
-import Footer from "components/navigation/Footer"
-import Navbar from "components/navigation/Navbar"
+import Features from "components/aboutMe/Features"
+import Header from "components/aboutMe/Header"
+import Hobbies from "components/aboutMe/Hobbies"
 import Layout from "hocs/layouts/layout"
 
 function SobreMi() {
     return (
         <Layout>
-            <Navbar/>
-            <div className="pt-28">Esta es mi ruta home Principal</div>
-            
-            <Footer/>
+            <Header/>
+            <Features/>
+            <Hobbies/>
         </Layout>
     )
 }

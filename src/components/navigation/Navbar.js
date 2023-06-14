@@ -1,5 +1,5 @@
 import { connect } from "react-redux"
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import logo from 'assets/img/LogoDev.png'
 import { useState } from "react"
 import { DotLoader } from "react-spinners"
@@ -22,7 +22,7 @@ function Navbar() {
     }
 
     return (
-        <header aria-label="Site Header" class="bg-white dark:bg-gray-900 py-7">
+        <header id="navbar" aria-label="Site Header" class="p-5 dark:bg-gray-900 w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed border-b backdrop-blur dark:bg-gray-900/70 dark:border-gray-700 ">
             <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="md:flex md:items-center md:gap-12">
@@ -68,15 +68,6 @@ function Navbar() {
                                         Blog
                                     </NavLink>
                                 </li>
-
-                                <li>
-                                    <NavLink to='/contact'
-                                        className="text-gray-500 transition  dark:text-white text-lg border-b-2 border-transparent hover:border-teal-500"
-                                        href="/blog"
-                                    >
-                                        Contacto
-                                    </NavLink>
-                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -84,7 +75,7 @@ function Navbar() {
                     <div class="flex items-center gap-4">
                         <div class="sm:flex sm:gap-4">
                             <button variant="outlined" className="flex items-center gap-3 rounded-md bg-teal-400 px-5 py-2.5 font-medium shadow dark:hover:bg-teal-600 text-lg">
-                                Crear
+                                Contacto
                                 <DotLoader loading={loading} size={20} />
                             </button>
                         </div>
@@ -99,11 +90,11 @@ function Navbar() {
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    stroke-width="2"
+                                    strokeWidth="2"
                                 >
                                     <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                         d="M4 6h16M4 12h16M4 18h16"
                                     />
                                 </svg>
