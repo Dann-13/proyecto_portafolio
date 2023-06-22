@@ -1,9 +1,8 @@
-import Development from 'assets/img/Development.svg'
-import Blob2 from 'assets/img/blobShape2.png'
+import Development from 'assets/img/Dev.svg'
 function Header() {
     return (
         <section class="py-20 overflow-hidden dark:bg-gray-900 md:pt-20 sm:pt-20 2xl:pt-20">
-            <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl py-6">
                 <div class="grid items-center grid-cols-1 md:grid-cols-2">
 
                     <div>
@@ -18,8 +17,6 @@ function Header() {
                     </div>
 
                     <div class="relative py-10">
-                        <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src={Blob2} alt="Blob2" />
-
                         <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src={Development} alt="Decelopment" />
                     </div>
 
