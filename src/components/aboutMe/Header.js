@@ -1,7 +1,7 @@
 import Development from 'assets/img/Dev.svg'
 function Header() {
     return (
-        <section class="py-20 overflow-hidden dark:bg-gray-900 md:pt-20 sm:pt-20 2xl:pt-20">
+        <section id='MainContent'  class="py-20 overflow-hidden dark:bg-gray-900 md:pt-20 sm:pt-20 2xl:pt-20">
             <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl py-6">
                 <div class="grid items-center grid-cols-1 md:grid-cols-2">
 

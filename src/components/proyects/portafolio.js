@@ -1,6 +1,6 @@
 function Portafolio() {
     return (
-        <section class="bg-white dark:bg-gray-900">
+        <section class=" py-20 dark:bg-gray-900">
             <div class="container px-6 py-10 mx-auto">
                 <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Portfolio
                 </h1>

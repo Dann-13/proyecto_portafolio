@@ -10,7 +10,7 @@ function Hobbies() {
                     <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src={Relax} alt="Decelopment" />
 
                 </div>
-                <div class="px-5">
+                <div class="px-5 flex flex-col justify-center items-center">
                     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 ">
 
                         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -23,7 +23,7 @@ function Hobbies() {
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 class="font-medium title-font text-white mb-1 text-xl">Musica</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p class="leading-relaxed">Zoe, Guns And Roses!</p>
                             </div>
                         </div>
                     </div>
@@ -37,8 +37,9 @@ function Hobbies() {
                                 <FontAwesomeIcon icon={faBook} size='3x' />
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-white mb-1 text-xl">The Catalyzer</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 class="font-medium title-font text-white mb-1 text-xl">Misterio</h2>
+                                <p class="leading-relaxed">"Las emociones no expresadas nunca mueren, quedan enterradas en vida y emergen mas adelante, de formas 
+                                mas desagradables"</p>
                             </div>
                         </div>
                     </div>
@@ -52,8 +53,8 @@ function Hobbies() {
                                 <FontAwesomeIcon icon={faBasketball} size='3x' />
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-white mb-1 text-xl">The 400 Blows</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 class="font-medium title-font text-white mb-1 text-xl">Deportes!</h2>
+                                <p class="leading-relaxed">Basketball, Futbol</p>
                             </div>
                         </div>
                     </div>
@@ -67,8 +68,8 @@ function Hobbies() {
                                 <FontAwesomeIcon icon={faGamepad} size='3x' />
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 class="font-medium title-font text-white mb-1 text-xl">Neptune</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 class="font-medium title-font text-white mb-1 text-xl">Videojuegos</h2>
+                                <p class="leading-relaxed">GTA, Halo, Stardew Valley</p>
                             </div>
                         </div>
                     </div>
